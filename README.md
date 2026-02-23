@@ -1,1 +1,1 @@
-https://github.com/glebshilko/ono-tebe-nado-fd
+https://github.com/glebshilko-arch/ono-tebe-nado-fd?tab=readme-ov-file
