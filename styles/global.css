@@ -4,10 +4,21 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  src: url(../fonts/Raleway-Bold.woff);
+  font-family: "Raleway";
+  font-weight: bold;
+}
+
+@font-face {
+  src: url(../fonts/Raleway-Regular.woff);
+  font-family: "Raleway";
+}
+
 body {
   width: 1100px;
   margin: 0 auto;
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 h1,
@@ -27,6 +38,7 @@ blockquote {
 
 a {
   color: inherit;
+  text-underline-offset: 2px;
 }
 
 img {
@@ -35,4 +47,8 @@ img {
 
 button {
   font: inherit;
+}
+
+address {
+  font-style: normal;
 }
